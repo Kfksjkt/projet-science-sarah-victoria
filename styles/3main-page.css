@@ -1,0 +1,37 @@
+
+body{
+  background-color: rgb(6, 13, 46);
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: row;     
+  margin-top: 80px;
+  margin-left: 72px;
+  color: white;
+  font-size: 26px;
+}
+
+.main-page h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.script{
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: left;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-justify: inter-word;
+}
+
+.podcast{
+  width: 100%;
+  margin: 10px auto;
+}

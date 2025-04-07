@@ -1,0 +1,67 @@
+.sidebar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 69px;
+  background-color: rgb(28, 54, 112);
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+  z-index: 99;
+}
+
+.sidebar-link{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.sidebar-link:hover, .image2{
+  background-color: rgb(13, 24, 78);
+
+}
+
+.sidebar-link img{
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.sidebar-link div{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.icon1, .icon2, .icon3, 
+.icon4, .icon5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+
+
+  .sidebar-link:hover .tooltip{
+    opacity: 1;
+}
