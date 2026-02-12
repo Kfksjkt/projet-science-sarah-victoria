@@ -76,41 +76,37 @@
             </div>
         </div>
 
+
+
         <div class="main-page">
-
-            <div class="main-page1">
-                <p class="text1">
-                    Vous voici donc sur le site que j’ai créé de A à Z. Chaque lettre et chaque symbole ont été minutieusement placés là où je le voulais. J’ai tout d’abord commencé par regarder des vidéos sur la programmation pendant l'été 2023. Mais j'ai rapidement abandonné préférant d’autres hobby et choses que je faisais. Avec le temps, j’ai repris et pile au moment où vous nous avez parlé du projet science, je venais de finir mon apprentissage de mes premiers langages d’informatiques. Voulant être ingénieur de site pendant un certain temps, j’ai appris les langues qui me serviraient a cela. Il faut noter qu’il y a beaucoup de langage de programmation différentes, certains sont utiliser pour des jeux, d’autres pour gérer des données et d’autres pour les objets du quotidien. Veuillez prendre compte ici d’une représentation non-exhaustive des langages de programmation que j’ai pu trouver.</p>
-                    
-                    <img src="images/langues.png" class="pro-lang">
-
+            <div class="text">
+            <p>
+            Vous voici donc sur le site que j’ai créé de A à Z. Chaque lettre et chaque symbole ont été minutieusement placés là où je le voulais. J’ai tout d’abord commencé par regarder des vidéos sur la programmation pendant l'été 2023. Mais j'ai rapidement abandonné préférant d’autres hobby et choses que je faisais. Avec le temps, j’ai repris et pile au moment où vous nous avez parlé du projet science, je venais de finir mon apprentissage de mes premiers langages d’informatiques. Voulant être ingénieur de site pendant un certain temps, j’ai appris les langues qui me serviraient a cela. Il faut noter qu’il y a beaucoup de langage de programmation différentes, certains sont utiliser pour des jeux, d’autres pour gérer des données et d’autres pour les objets du quotidien. Veuillez prendre compte ici d’une représentation non-exhaustive des langages de programmation que j’ai pu trouver.
+            </p>
             </div>
 
-            <div class="main-page2">
-                <p class="text2">
-                Néanmoins, pour créer des sites, (ce qui était quand même mon objectif), on utilise le plus souvent HTML, CSS et Javascript. HTML signifie, Hyper Text Markup Language en français : Langage de balisage hypertexte. Enfin, ce sont des grands mots, dans un site la partie que joue le HTML est de créer les éléments, comme ci-dessous un bouton. Puis CSS signifie Cascading Style Sheets ce qui me permettra de colorer ce même bouton. Et enfin, Javascript, avec cette partie, on rend un site interactif. Si vous cliquez sur le bouton, une alerte apparaître.
-                </p>
-            </div>
+            <div class="image">    
 
-            <div class="main-page3">
-                <button>Bouton</button>
+                <picture>
+                <!-- Image for small screens -->
+                <source srcset=images/language.png media="(max-width: 1100px)">
+                
+                <!-- Default image for larger screens -->
+                <img src=images/langues.png alt="My Image" class="lang">
+                </picture>
+
+
+            </div>
+        </div>
+
+        <p class="text-2">
+            Néanmoins, pour créer des sites, (ce qui était quand même mon objectif), on utilise le plus souvent HTML, CSS et Javascript. HTML signifie, Hyper Text Markup Language en français : Langage de balisage hypertexte. Enfin, ce sont des grands mots, dans un site la partie que joue le HTML est de créer les éléments, comme ci-dessous un bouton. Puis CSS signifie Cascading Style Sheets ce qui me permettra de colorer ce même bouton. Et enfin, avec Javascript on rend un site interactif. Si vous cliquez sur le bouton, une alerte apparaîtra.
+        </p>
+
+        <div class="main-page2">
+                <button class="bouton">Bouton</button>
                 <button class="button1">Bouton</button>
                 <button class="button1" onclick="alert('Vous avez cliquer sur le bouton!')">Bouton</button>
-            </div>
-            <div class="main-page4">
-                <p class="text3">Bon, revenons à mon site. Vous retrouveriez ci-dessous une vidéo détaillée de chaque page de mon code. (Il y a beaucoup de mots anglais, car je ne me suis pas décidé donc j'ai fait dans les deux langues.) (Je vous conseille de le mettre en plein ecran pour mieux voir.)</p>
-                 </div>
-                <video width="600" height="400" controls  style="
-                height: 100%;
-                margin-top: 20px;
-                display: block; /* Make the image a block-level element */
-                margin-left: auto; /* Automatically adjust the left margin */
-                margin-right: auto; /* Automatically adjust the right margin */
-                border-radius: 20px;
-                box-shadow: 0 4px 8px rgb(173, 167, 167); /* Add shadow effect */
-                margin-bottom: 40px;">
-                    <source src="video.mp4">
-           
-            
-
-    <body>
+        </div>
+    </body>
+</html>
