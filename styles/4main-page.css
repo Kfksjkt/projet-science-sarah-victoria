@@ -3,109 +3,58 @@ body{
   background-color: rgb(6, 13, 46);
   font-family: 'Arial', sans-serif;
   color: white;
-}
-
-.text1{
-  font-size: 20px;
-  margin-top: 150px;
-  margin-left: 100px;
-  text-align: right;
-  margin-right: 10px;
-  color: white;
-  line-height: 1.5;
+  padding-left: 76px; /* offset fixed sidebar width */
+  padding-top: 74px; /* offset fixed header height */
 }
 
 
-.main-page1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  margin-top: 150px;
-  text-align: right;
-  font-size: 30px;
-  color: white;
+.main-page{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
 }
 
-.pro-lang{
-  height: 400px;
+.text{
   width: 100%;
-  margin-top: 150px;
+}
+
+.main-page img{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.lang{
+  max-width: 550px;
+  padding-left: 0px;
+}
+
+.image{
+  display: block;
+  margin: 0 auto ;
+}
+
+.text-2{
+  width: 100%;
+  text-align: center;
 }
 
 .main-page2{
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100px;
-  margin-top: 170px;
-  text-align: center;
-  font-size: 30px;
-  color: white;
+  gap: 16px;
 }
 
-.text2{
-  font-size: 20px;
-  margin-top: 150px;
-  margin-left: 100px;
-  text-align: center;
-  margin-right: 10px;
-  color: white;
-  line-height: 1.5;
-}
-
-.main-page3{
-  display: flex;
-  column-gap: 300px;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  margin-top: 40px;
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  
-}
 
 .button1{
-  background-color: rgb(8, 185, 255);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
+  background-color: rgb(3, 106, 146);
+  border-radius: 3px;
+  border: 2px solid rgb(3, 65, 89);
+  font-size: 20px;
 }
 
 .button1:hover{
   background-color: rgb(3, 136, 189);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 1px solid aqua;
 }
 
-.button1:active{
-  background-color: rgb(3, 106, 146);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 1px solid aqua;
-}
-
-.text3{
-  font-size: 20px;
-  margin-top: 10px;
-  margin-left: 100px;
-  text-align: center;
-  margin-right: 10px;
-  color: white;
-  line-height: 1.5;
-  font-weight: bold;
+.bouton:hover{
+background-color: white;
 }
